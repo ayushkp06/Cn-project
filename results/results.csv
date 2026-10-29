@@ -1,0 +1,8 @@
+scenario,time_s,throughput_Mbps,avg_chunk_latency_ms,jitter_ms,requests,crc_failures,corrupt_rate_pct
+1 seeder,4.303,15.6,32.69,0.15,128,0,0.0
+3 seeders,1.453,46.19,32.83,0.42,128,0,0.0
+swarm downloader 1,4.941,13.58,65.19,27.21,128,0,0.0
+swarm downloader 2,4.93,13.61,66.42,30.72,128,0,0.0
+swarm downloader 3,4.875,13.76,67.63,29.07,128,0,0.0
+"3 seeders, 1 crashes",1.881,35.68,32.67,0.24,128,0,0.0
+1 good + 1 corrupt seeder,4.236,15.84,32.58,0.09,131,3,2.29
